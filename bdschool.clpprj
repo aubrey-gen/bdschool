@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\wamp64\www\bdschool\html\bdschool.clpprj">
+	<settings><PM_URL><![CDATA[C:/wamp/www/bdschool/html/]]></PM_URL><PM_HOME_URL><![CDATA[C:/wamp/www/bdschool/html/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\user_utils.php"/>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\get_bookings.php"/>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\get_products.php"/>
+		<file name="C:\wamp64\www\bdschool\html\css\normalise.css"/>
+		<file name="C:\wamp64\www\bdschool\html\bootstrap\css\bootstrap.min.css"/>
+		<file name="C:\wamp64\www\bdschool\html\bootstrap\css\bootstrap-theme.min.css"/>
+		<file name="C:\wamp64\www\bdschool\html\css\bds-theme.css"/>
+		<file name="C:\wamp64\www\bdschool\html\bookings.php"/>
+		<file name="C:\wamp64\www\bdschool\html\css\eonasdan\bootstrap-datetimepicker.css"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\bds_gen.js"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\bds_register.js"/>
+	</lastopfiles>
+	<todoblock>
+		<todofile name="C:\wamp64\www\bdschool\html\includes\php\functions.php">
+			<todo name="TODO: ADD ERROR HANDLING HERE" pos="9;199"/>
+			<todo name="todo Consider adding more functionality to this function, such as passing user details through, stor" pos="6;857"/>
+			<todo name="todo Re-evaluate the use of this script." pos="6;876"/>
+		</todofile>
+		<todofile name="C:\wamp64\www\bdschool\html\libs\js\eonasdan\moment-with-locales.js">
+			<todo name="TODO: remove 'name' arg after deprecation is removed" pos="5;591"/>
+			<todo name="TODO: We need to take the current isoWeekYear, but that depends on" pos="13;1388"/>
+			<todo name="TODO: Move this out of here!" pos="9;2686"/>
+			<todo name="TODO: Another silent failure?" pos="13;2689"/>
+			<todo name="TODO (iskren): Use anchor date (like 1st Jan) to compute this." pos="13;2797"/>
+		</todofile>
+		<todofile name="C:\wamp64\www\bdschool\html\libs\js\moment.js">
+			<todo name="TODO: add sorting" pos="5;918"/>
+			<todo name="TODO: Another silent failure?" pos="13;958"/>
+			<todo name="TODO: Find a better way to register and load all the locales in Node" pos="5;1809"/>
+			<todo name="TODO: We need to take the current isoWeekYear, but that depends on" pos="9;2187"/>
+			<todo name="TODO: Move this to another part of the creation flow to prevent circular deps" pos="5;2241"/>
+			<todo name="TODO: Use [].sort instead?" pos="1;2533"/>
+			<todo name="TODO: remove 'name' arg after deprecation is removed" pos="1;2929"/>
+			<todo name="TODO: Use this.as('ms')?" pos="1;4034"/>
+		</todofile>
+	</todoblock>
+	<filescache>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.zh-TW.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.zh-CN.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.uk.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.ua.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.tr.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.th.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.sw.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.sv.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.sl.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.sk.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.ru.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.rs.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.rs-latin.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.ro.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.pt.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.pt-BR.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.pl.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.no.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.nl.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.nb.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.ms.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.lv.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.lt.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.ko.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.ka.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.ja.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.it.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.is.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.id.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.hy.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.hu.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.hr.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.he.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.fr.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.fi.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.es.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.el.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.ee.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.de.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.da.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.cs.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.ca.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.bn.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.bg.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.az.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\locales\bootstrap-datetimepicker.ar.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\eonasdan\moment-with-locales.js" crc="1489403648"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\eonasdan\bootstrap-datetimepicker.js" crc="1489403488"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\moment.js" crc="1489152596"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\jquery.min.js" crc="1489048822"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\bootstrap-datetimepicker.js" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\bds_reset.js" crc="1537715595"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\bds_register.js" crc="1554324074"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\bds_purchase.js" crc="1537718026"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\bds_login.js" crc="1520976252"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\bds_gen.js" crc="1554059168"/>
+		<file name="C:\wamp64\www\bdschool\html\libs\js\bds_admin.js" crc="1536033136"/>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\user_utils_update.php" crc="1553859624"/>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\user_utils.php" crc="1554487368"/>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\purchase.php" crc="1553859624"/>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\password_recovery.php" crc="1553859624"/>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\make_bookings.php" crc="1553859638"/>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\maintenance_work.php" crc="1371542116"/>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\logout.php" crc="1533373308"/>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\get_products.php" crc="1554494624"/>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\get_bookings.php" crc="1554494461"/>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\functions.php" crc="1371129556"/>
+		<file name="C:\wamp64\www\bdschool\html\includes\php\DB_CONNECT.php" crc="1371536446"/>
+		<file name="C:\wamp64\www\bdschool\html\css\eonasdan\bootstrap-datetimepicker.css" crc="1533109779"/>
+		<file name="C:\wamp64\www\bdschool\html\css\normalize.css" crc="1489049510"/>
+		<file name="C:\wamp64\www\bdschool\html\css\normalise.css" crc="1489049510"/>
+		<file name="C:\wamp64\www\bdschool\html\css\bootstrap-datetimepicker.min.css" crc="1488535224"/>
+		<file name="C:\wamp64\www\bdschool\html\css\bds-theme.css" crc="1553722502"/>
+		<file name="C:\wamp64\www\bdschool\html\bootstrap\js\bootstrap.min.js" crc="1533129908"/>
+		<file name="C:\wamp64\www\bdschool\html\bootstrap\js\bootstrap.js" crc="1533129908"/>
+		<file name="C:\wamp64\www\bdschool\html\bootstrap\css\bootstrap.min.css" crc="1533129908"/>
+		<file name="C:\wamp64\www\bdschool\html\bootstrap\css\bootstrap.css" crc="1533129908"/>
+		<file name="C:\wamp64\www\bdschool\html\bootstrap\css\bootstrap-theme.min.css" crc="1533129908"/>
+		<file name="C:\wamp64\www\bdschool\html\bootstrap\css\bootstrap-theme.css" crc="1533129908"/>
+		<file name="C:\wamp64\www\bdschool\html\signin.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\reset_success.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\reset_password.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\reset_expired.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\request_password.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\registration.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\products.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\index.php" crc="1554061099"/>
+		<file name="C:\wamp64\www\bdschool\html\delete_accounts.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\bookings.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\admin_products.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\admin_pay.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\admin_lcodes.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\admin_admin.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\admin.php" crc="1554152305"/>
+		<file name="C:\wamp64\www\bdschool\html\accounts.php" crc="1553728548"/>
+		<file name="C:\wamp64\www\bdschool\html\aboutus.php" crc="1554061646"/>
+	</filescache>
+</project>
