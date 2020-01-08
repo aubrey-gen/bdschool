@@ -1,4 +1,6 @@
-
+/**
+* @author Aubrey 
+*/
 	//"use strict";
 
 	var g_oAppointment = { day: '', userid: '', time: ''};	

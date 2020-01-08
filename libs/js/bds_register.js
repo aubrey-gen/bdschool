@@ -15,7 +15,7 @@ function generalUser() {
 		"email" : $("#reg_useremail"),	
 		"terms": $("input#reg_terms").val(),		
 		"password1" : $("#reg_password"),
-		"password2" : $("#reg_password_confirm")					
+        "password2" : $("#reg_password_confirm")
 	};	
 			
 	//Local functions
@@ -31,6 +31,19 @@ function generalUser() {
         messageHandler.success.fadeOut(6000);
     }
     
+    function varExists(vartocheck) {
+        var declared = true;
+        try {
+            vartocheck;
+        }
+        catch (e) {
+            if (e.name == "ReferenceError") {
+                declared = false;
+            }
+        }
+        return declared;
+    }
+
     function addClientSuccess(data) {	
 				
         if (data.check === true) {        	           
@@ -38,16 +51,31 @@ function generalUser() {
             userAddForm.username.val("");
             userAddForm.email.val("");
             userAddForm.password1.val("");
-            userAddForm.password2.val("");  
+            userAddForm.password2.val("");
             //Check if there is a redirent url
-            if(data.url){
-				window.location.href(data.url);
-			}   
+            if(data.url){                
+                try {
+                    window.location.href(data.url);
+                }
+                catch (e) {
+                   //reload captcha  
+                    grecaptcha.reset() ;
+                }
+            } 
+            else{
+                //reload captcha  
+                grecaptcha.reset() ;
+            }              
             //
             showSuccessMessage(data.message);        
         }
         else{
-        	
+            //Check if CAPTCHA was verified and failed
+            if(varExists(data.captcha_failed) && data.captcha_failed == true ){
+                //reload captcha
+                grecaptcha.reset() ;
+            }
+            //Check for error messages
             if (data.message !== "") {
                 //Check if redirect url exist
 				if(data.url){
@@ -61,9 +89,9 @@ function generalUser() {
 				showErrorMessage("Unable to add client");
 			}  
         }
-    }
-    
-    function addClientFail() {
+    }    
+
+    function addClientFail(data) {
         showErrorMessage("Failed to add client");
     }   
 	
@@ -111,7 +139,7 @@ function generalUser() {
 	    return errorMessage;     
 	}
 	
-	function addClient(userForm, username, gender, email, password1, password2, terms) {
+	function addClient(userForm, username, gender, email, password1, password2, terms, captcha) {
 
         if (userForm[0].checkValidity()) {
 			//
@@ -125,14 +153,22 @@ function generalUser() {
             email = email ? email.replace(/\s/g, "") : "";
             password1 = password1 ? password1.replace(/\s/g, "") : "";
             password2 = password2 ? password2.replace(/\s/g, "") : "";  
-            terms = terms ? terms.replace(/\s/g, "") : "";   
-                      
+            terms = terms ? terms.replace(/\s/g, "") : ""; 
+            captcha = captcha ? captcha.replace(/\s/g, "") : ""; 
+                                  
             //Change to lowercase
             gender = gender ? gender.toUpperCase() : "";
             email = email ? email.toLowerCase() : "";
 
+            //Check captcha
+            if(captcha == ""){
+                showErrorMessage("Check for robot has not completed");
+                formFilled = false;
+                return;
+            }
+
             //Check if form was filled
-            if (username && gender && email && password1 && password2 && terms) {
+            if (username && gender && email && password1 && password2 && terms && captcha) {
                 formFilled = true;
             }					
 			
@@ -163,7 +199,8 @@ function generalUser() {
 	                        "email": email || "",                        
 	                        "password1": password1 || "",
 	                        "password2": password2 || "",
-	                        "terms": terms
+                            "terms": terms,
+                            "captcha": captcha || ""
 	                    };
 
 	                    userUtility("reg_data", userInfo, addClientSuccess, addClientFail, function () { return 0; });
@@ -177,8 +214,8 @@ function generalUser() {
     }
 	
     return {
-        addClient: function (userForm, username, gender, email, password1, password2, terms){
-			addClient(userForm, username, gender, email, password1, password2, terms);	
+        addClient: function (userForm, username, gender, email, password1, password2, terms, captcha){
+			addClient(userForm, username, gender, email, password1, password2, terms, captcha);	
 		}     
     };						
 }
