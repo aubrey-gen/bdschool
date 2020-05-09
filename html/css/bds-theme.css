@@ -1,0 +1,64 @@
+@media(min-width: 1200px) {
+	#webbody {
+		background: url("/images/main_bg.jpg") no-repeat center center fixed;
+		background-size: 100% 100%;
+		height: 100%;
+		position: absolute;
+		width: 100%;	
+	 }
+}
+div#header {
+	
+	width:100%;
+}
+div#content {				
+	width:100%;			
+}
+div.alert {
+	display: none;
+}
+.hidden {
+	display: none;
+}
+li.links {
+	display: inline-block;	
+}
+a.links {	
+	color: black;		
+	padding: 10px;					  
+	text-decoration: none;
+	display: inline-block;		
+}
+div#new_account h4 {
+	text-align: center;
+	font-variant: small-caps;
+	max-width: 400px;
+}
+form#account_registration {					
+	float: left;			
+	max-width: 400px;		
+}
+form#account_registration div {					
+	float: left;			
+	width: 100%;
+	padding:5px 0 0 0;		
+}
+#account_registration div label:not(:last-child) {
+	clear: left;			
+	float: left;	
+	text-align: left;				
+	width: 150px;		
+}
+#profile_data{
+	padding: 10px 0 0 0;
+}
+#tbl_availtimes tr:first-child th{
+	text-align: center;
+}
+#adminlist tr td:last-child {
+	float: right;
+	padding: 5px 10px;
+}
+#tblproducts thead tr th:first-child{
+	text-align: center;
+}
