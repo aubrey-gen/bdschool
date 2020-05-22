@@ -105,6 +105,6 @@
     <script src="libs/js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="libs/js/bds_purchase.js"></script>    
+    <script src="libs/js/purchase.js"></script>    
   </body>
 </html>
