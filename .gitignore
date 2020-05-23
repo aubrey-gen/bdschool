@@ -1,4 +1,12 @@
 bdschool.code-workspace
-/html/includes/php/
+##/html/includes/php/
+/html/includes/php/db_con.php
+/html/includes/php/DB_CONNECT.php
+/html/includes/php/get_bookings.php
+/html/includes/php/logout.php
+/html/includes/php/make_bookings.php
+/html/includes/php/password_recovery.php
+/html/includes/php/user_utils.php
+/html/includes/php/user_utils_update.php
 /html/testing/
-html/testcon.php
+/html/testcon.php
